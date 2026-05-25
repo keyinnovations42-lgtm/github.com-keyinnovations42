@@ -1,0 +1,205 @@
+# ==============================================================
+# SENSITIVE — NEVER COMMIT THESE
+# ==============================================================
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+secrets.json
+secrets.yaml
+secrets.yml
+config.secret.*
+serviceAccountKey.json
+firebase-adminsdk*.json
+google-credentials.json
+*credentials*.json
+*_credentials.*
+*secret*
+*api_key*
+*apikey*
+
+# ==============================================================
+# NODE / NPM
+# ==============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.pnp.*
+package-lock.json.bak
+
+# ==============================================================
+# BUILD OUTPUT
+# ==============================================================
+
+dist/
+dist-ssr/
+build/
+out/
+.output/
+.nuxt/
+.next/
+.svelte-kit/
+.vercel/
+.netlify/
+
+# ==============================================================
+# VITE / REACT / TYPESCRIPT
+# ==============================================================
+
+*.local
+vite.config.ts.timestamp-*
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# ==============================================================
+# FIREBASE
+# ==============================================================
+
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+database-debug.log
+pubsub-debug.log
+.firebaserc.local
+firebase.json.bak
+
+# ==============================================================
+# GOOGLE CLOUD / GCP
+# ==============================================================
+
+application_default_credentials.json
+gcloud-service-key.json
+*.gserviceaccount.json
+
+# ==============================================================
+# PYTHON
+# ==============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+dist/
+*.egg
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.ipynb_checkpoints/
+
+# ==============================================================
+# VS CODE
+# ==============================================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+*.code-workspace
+
+# ==============================================================
+# OS GENERATED
+# ==============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==============================================================
+# LOGS & TEMP FILES
+# ==============================================================
+
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+.cache/
+tmp/
+temp/
+
+# ==============================================================
+# DATABASES & LOCAL DATA
+# ==============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql.bak
+data/
+local-data/
+
+# ==============================================================
+# DOCKER
+# ==============================================================
+
+.dockerenv
+docker-compose.override.yml
+
+# ==============================================================
+# STRIPE / PAYMENT
+# ==============================================================
+
+.stripe/
+webhook-secret*
+
+# ==============================================================
+# OLLAMA / LOCAL AI
+# ==============================================================
+
+models/
+*.gguf
+*.bin
+ollama-data/
+
+# ==============================================================
+# MISC
+# ==============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+coverage/
+.nyc_output/
+storybook-static/
